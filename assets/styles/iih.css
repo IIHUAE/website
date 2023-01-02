@@ -3405,6 +3405,10 @@ video {
     flex-direction: row;
   }
 
+  .sm\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
   .sm\:justify-start {
     justify-content: flex-start;
   }
@@ -3424,6 +3428,11 @@ video {
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .sm\:leading-\[52px\] {
@@ -3560,6 +3569,10 @@ video {
     height: 12rem;
   }
 
+  .lg\:h-full {
+    height: 100%;
+  }
+
   .lg\:w-auto {
     width: auto;
   }
@@ -3652,6 +3665,10 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:h-full {
+    height: 100%;
+  }
+
   .xl\:w-2\/5 {
     width: 40%;
   }
