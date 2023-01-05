@@ -83,7 +83,7 @@
           <title>IIH - Intelligent Invesetment Holding</title>
           <img alt="logo" class="w-full  h-14" src="./assets/images/logo/logo1.svg">
           
-          <span class="mt-3 text-transparent bg-clip-text bg-gradient-to-b from-primary2 to-primary1 js-show-on-scroll" data-animate-type="motion-safe:animate-fade-right">IIH</span>
+          <span class="mt-3 text-transparent bg-clip-text bg-gradient-to-b from-primary2 to-primary1 js-show-on-scroll" data-animate-type="motion-safe:animate-fade-right">II</span>
         </a>
 
       </div>
@@ -1016,26 +1016,8 @@ const swiper = new Swiper('.swiper', {
 
     });
 
-    
-    };
 
-
-
-    function closeAlert(id) {
-      let element = document.getElementById(id);
-      element.remove();
-    }
-    
-
-
-    function hideUnderline(selected_menu) {
-      for (var i = 1; i <= 5; i++) {
-        var menu_underline = document.querySelector('#menu' + i + '-underline');
-        menu_underline.classList.add('hidden');
-      }
-      var menu_underline = document.querySelector(selected_menu);
-      menu_underline.classList.remove('hidden');
-    }
+//start observer
 
 
     //Animation Start
@@ -1058,6 +1040,29 @@ const swiper = new Swiper('.swiper', {
         }
       });
     };
+
+
+    };
+
+
+
+    function closeAlert(id) {
+      let element = document.getElementById(id);
+      element.remove();
+    }
+    
+
+
+    function hideUnderline(selected_menu) {
+      for (var i = 1; i <= 5; i++) {
+        var menu_underline = document.querySelector('#menu' + i + '-underline');
+        menu_underline.classList.add('hidden');
+      }
+      var menu_underline = document.querySelector(selected_menu);
+      menu_underline.classList.remove('hidden');
+    }
+
+
 
    
 
